@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../../../../favicon.ico" />
+<title>
+
+  OnBaseMapSwitchListener |
+
+
+  ArcGIS Android 10.2.4 API
+
+</title>
+<link href="../../../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../../../");
+</script>
+<script src="../../../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../../navtree_data.js" type="text/javascript"></script>
+<script src="../../../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="" itemscope itemtype="http://schema.org/Article">
+
+
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+  
+  
+  
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+Summary:
+
+
+
+
+
+
+
+
+
+
+
+  <a href="#pubmethods">Methods</a>
+  
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+     
+    
+    interface
+<h1 itemprop="name">OnBaseMapSwitchListener</h1>
+
+
+
+  
+  
+      implements 
+      
+        <a href="../../../../../../reference/com/esri/android/map/event/OnWebMapLoadListener.html">OnWebMapLoadListener</a> 
+      
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.esri.android.map.event.OnBaseMapSwitchListener</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p itemprop="articleBody">Implements the listener to handle BaseMap switching with <code><a href="../../../../../../reference/com/esri/android/map/MapView.html#switchBaseMap(com.esri.core.portal.BaseMap, com.esri.core.portal.Portal, com.esri.android.map.event.OnBaseMapSwitchListener)">switchBaseMap(BaseMap, Portal, OnBaseMapSwitchListener)</a></code>.</p>
+
+
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../../reference/com/esri/android/map/event/OnBaseMapSwitchListener.html#onBaseMapSwitchCompleted(com.esri.core.portal.BaseMap, java.lang.Throwable)">onBaseMapSwitchCompleted</a></span>(<a href="../../../../../../reference/com/esri/core/portal/BaseMap.html">BaseMap</a> basemap, Throwable error)</nobr>
+        
+        <div class="jd-descrdiv">Invoked when the basemap switch operation has completed.</div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-com.esri.android.map.event.OnWebMapLoadListener" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-com.esri.android.map.event.OnWebMapLoadListener-trigger"
+          src="../../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From interface
+
+  <a href="../../../../../../reference/com/esri/android/map/event/OnWebMapLoadListener.html">com.esri.android.map.event.OnWebMapLoadListener</a>
+
+<div id="inherited-methods-com.esri.android.map.event.OnWebMapLoadListener">
+  <div id="inherited-methods-com.esri.android.map.event.OnWebMapLoadListener-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-com.esri.android.map.event.OnWebMapLoadListener-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../../reference/com/esri/android/map/event/OnWebMapLoadListener.html#onWebMapLayerAdd(com.esri.android.map.MapView, com.esri.core.portal.WebMap, com.esri.core.portal.WebMapLayer, com.esri.android.map.Layer, com.esri.core.io.UserCredentials)">onWebMapLayerAdd</a></span>(<a href="../../../../../../reference/com/esri/android/map/MapView.html">MapView</a> source, <a href="../../../../../../reference/com/esri/core/portal/WebMap.html">WebMap</a> webmap, <a href="../../../../../../reference/com/esri/core/portal/WebMapLayer.html">WebMapLayer</a> wmlayer, <a href="../../../../../../reference/com/esri/android/map/Layer.html">Layer</a> layer, <a href="../../../../../../reference/com/esri/core/io/UserCredentials.html">UserCredentials</a> credentials)</nobr>
+        
+        <div class="jd-descrdiv">Implements this method to handle the event when a WebMapLayer is added to a MapView and initialized.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            <a href="../../../../../../reference/com/esri/android/map/event/MapLoadAction.html">MapLoadAction</a>&lt;<a href="../../../../../../reference/com/esri/core/io/UserCredentials.html">UserCredentials</a>&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../../reference/com/esri/android/map/event/OnWebMapLoadListener.html#onWebMapLoadError(com.esri.android.map.MapView, com.esri.core.portal.WebMap, com.esri.core.portal.WebMapLayer, com.esri.android.map.Layer, java.lang.Throwable, com.esri.core.io.UserCredentials)">onWebMapLoadError</a></span>(<a href="../../../../../../reference/com/esri/android/map/MapView.html">MapView</a> source, <a href="../../../../../../reference/com/esri/core/portal/WebMap.html">WebMap</a> webmap, <a href="../../../../../../reference/com/esri/core/portal/WebMapLayer.html">WebMapLayer</a> wmlayer, <a href="../../../../../../reference/com/esri/android/map/Layer.html">Layer</a> layer, Throwable error, <a href="../../../../../../reference/com/esri/core/io/UserCredentials.html">UserCredentials</a> credentials)</nobr>
+        
+        <div class="jd-descrdiv">Implements this method to handle WebMap loading errors.</div>
+  
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<A NAME="onBaseMapSwitchCompleted(com.esri.core.portal.BaseMap, java.lang.Throwable)"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        abstract 
+         
+        void
+      </span>
+      <span class="sympad">onBaseMapSwitchCompleted</span>
+      <span class="normal">(<a href="../../../../../../reference/com/esri/core/portal/BaseMap.html">BaseMap</a> basemap, Throwable error)</span>
+    </h4>
+      <div class="api-level">
+        <div></div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Invoked when the basemap switch operation has completed. A null error argument indicates success, otherwise the
+ basemap switch has failed.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>basemap</td>
+          <td>the basemap that was loaded into the MapView.</td>
+        </tr>
+        <tr>
+          <th>error</td>
+          <td>the error that occurred if the basemap switch failed.
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize android-developer-docs.js */
+</script>
+
+</body>
+</html>

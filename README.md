@@ -1,6 +1,8 @@
 ArcGIS Android Dash Docset
 ==========================
-This is ArcGIS Android 10.2.2 API Reference Make for Dash or [Wox](https://github.com/qianlifeng/Wox).
+This is ArcGIS Android 10.2.4 API Reference Maked for Dash.
+
+Tested on [Dash](http://kapeli.com/dash) and [LovelyDoc](http://lovelydocs.io/)
 
 Based on Esri's Android API reference and Copyright © Esri.
 

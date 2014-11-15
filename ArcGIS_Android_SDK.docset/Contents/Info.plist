@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DocSetStatus</key>
+	<string>1</string>
+	<key>isDashDocset</key>
+	<true/>
+	<key>DocSetPlatformFamily</key>
+	<string>ArcGIS Android</string>
+	<key>CFBundleIdentifier</key>
+	<string>Arc</string>
+	<key>isJavaScriptEnabled</key>
+	<string>true</string>
+	<key>dashIndexFilePath</key>
+	<string>index.html</string>
+	<key>CFBundleName</key>
+	<string>ArcGIS Android</string>
+	<key>DocSetVersion</key>
+	<string>10.2.4</string>
+	<key>DashDocSetFamily</key>
+	<string>dashtoc</string>
+</dict>
+</plist>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../../../favicon.ico" />
+<title>
+
+  com.esri.core.map |
+
+
+  ArcGIS Android 10.2.4 API
+
+</title>
+<link href="../../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../../");
+</script>
+<script src="../../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../navtree_data.js" type="text/javascript"></script>
+<script src="../../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="">
+
+
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+<div class="api-level">
+  
+  
+  
+
+</div>
+</div>
+
+<div id="jd-header">
+  package
+  <h1>com.esri.core.map</h1>
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-">
+
+
+  <div class="jd-descr">
+    Contains classes for map-related elements or objects (does not include layers or events).
+
+  </div>
+
+
+
+
+
+  
+    <h2>Interfaces</h2>
+    <div class="jd-sumtable">
+    
+  <table class="jd-sumtable-expando">
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/CallbackListener.html">CallbackListener</a>&lt;T&gt;</td>
+              <td class="jd-descrcol" width="100%">Implement this interface to handle the returned result from an asynchronous
+ call.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/Feature.html">Feature</a></td>
+              <td class="jd-descrcol" width="100%">Interface for an object you can add to a map.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LayerInfoItem.html">LayerInfoItem</a></td>
+              <td class="jd-descrcol" width="100%">This interface should be implemented by classes that are used to configure
+ dynamic layers in a dynamic map service.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ServerFile.ProgressListener.html">ServerFile.ProgressListener</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ServerFolder.ProgressListener.html">ServerFolder.ProgressListener</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/TimeAwareLayer.html">TimeAwareLayer</a></td>
+              <td class="jd-descrcol" width="100%">This interface should be implemented by any layer that can be filtered by date/time (time aware).&nbsp;</td>
+          </tr>
+  </table>
+    </div>
+  
+
+
+  
+    <h2>Classes</h2>
+    <div class="jd-sumtable">
+    
+  <table class="jd-sumtable-expando">
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/AttachmentEditResult.html">AttachmentEditResult</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/AttachmentInfo.html">AttachmentInfo</a></td>
+              <td class="jd-descrcol" width="100%">Information about an attachment associated with a feature.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/Bookmark.html">Bookmark</a></td>
+              <td class="jd-descrcol" width="100%">Represents a bookmark object defined in the Web map.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/CodedValueDomain.html">CodedValueDomain</a></td>
+              <td class="jd-descrcol" width="100%">The <code>CodedValueDomain</code> class represents the 'Coded Value Domain' details in the Feature Layer of the
+ Feature Service.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/DataSource.html">DataSource</a></td>
+              <td class="jd-descrcol" width="100%">A data source represents a table, feature class, or raster that resides in a registered workspace
+  (either a folder or geodatabase).&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/Domain.html">Domain</a></td>
+              <td class="jd-descrcol" width="100%">The <code>abstract class Domain</code> is the superclass of classes CodedValueDomain and RangeDomain.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/DrawingInfo.html">DrawingInfo</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/DynamicLayerInfo.html">DynamicLayerInfo</a></td>
+              <td class="jd-descrcol" width="100%">This class represents a single sublayer in a dynamic map service and allows the user to set a new renderer and a new
+ data source for the sublayer.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/EditFieldsInfo.html">EditFieldsInfo</a></td>
+              <td class="jd-descrcol" width="100%">Holds information about the fields used to store editor tracking information for features in 
+ a feature service.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/EditInfo.html">EditInfo</a></td>
+              <td class="jd-descrcol" width="100%">Represents the editing info for a graphic in a feature layer, including a user ID, an editing action 
+ type, and a date value.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/EditorTrackingInfo.html">EditorTrackingInfo</a></td>
+              <td class="jd-descrcol" width="100%">This class can be used to determine whether or not editor tracking and ownership based access control
+ are enabled on a service.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/FeatureEditError.html">FeatureEditError</a></td>
+              <td class="jd-descrcol" width="100%">An error object indicating that an operation failed when processing a REST request.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/FeatureEditResult.html">FeatureEditResult</a></td>
+              <td class="jd-descrcol" width="100%">The results of a feature edit such as add, update or delete.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/FeatureResult.html">FeatureResult</a></td>
+              <td class="jd-descrcol" width="100%">This class encapsulates a set of features and their metadata.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/FeatureSet.html">FeatureSet</a></td>
+              <td class="jd-descrcol" width="100%">A collection of features returned from ArcGIS Server or used as input to tasks.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/FeatureTemplate.html">FeatureTemplate</a></td>
+              <td class="jd-descrcol" width="100%">Feature templates define the information required to create a new feature.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/FeatureType.html">FeatureType</a></td>
+              <td class="jd-descrcol" width="100%">The <code>FeatureType</code> class represents a SubType of a feature layer which includes the over-ridden domains for
+ the various fields.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/Field.html">Field</a></td>
+              <td class="jd-descrcol" width="100%">The <code>Field</code> class represents a field of a feature layer.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/Graphic.html">Graphic</a></td>
+              <td class="jd-descrcol" width="100%">The Graphic class is used to represent a feature that can have any of the following:
+ <ul>
+ <li><code><a href="../../../../../reference/com/esri/core/geometry/Geometry.html">Geometry</a></code>
+ <li><code><a href="../../../../../reference/com/esri/core/symbol/Symbol.html">Symbol</a></code>
+ <li>attributes, stored as key-value pairs
+ </ul>
+ <p>
+ Graphic objects are immutable, which means a Graphic's state cannot change after construction.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/GraphicsUtil.html">GraphicsUtil</a></td>
+              <td class="jd-descrcol" width="100%">The Class GraphicsUtil.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ImageServiceParameters.html">ImageServiceParameters</a></td>
+              <td class="jd-descrcol" width="100%">Represents the image service parameter options used in an <code>ArcGISImageServiceLayer</code>.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/InheritedDomain.html">InheritedDomain</a></td>
+              <td class="jd-descrcol" width="100%">The <code>InheritedDomain</code> class represents the 'Inherited Domain'.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/JoinTableDataSource.html">JoinTableDataSource</a></td>
+              <td class="jd-descrcol" width="100%">The Class JoinTableDataSource is the result of a join operation.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LabelingInfo.html">LabelingInfo</a></td>
+              <td class="jd-descrcol" width="100%">This class is to be used to specify labeling information, including:
+ <ul>
+ <li>label placement,
+ <li>label symbol, 
+ <li>label expression,
+ <li>the min and max scale at which to show labels,
+ <li>whether to use code values.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LayerDataSource.html">LayerDataSource</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LayerInfo.html">LayerInfo</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LayerMapSource.html">LayerMapSource</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LayerRelationship.html">LayerRelationship</a></td>
+              <td class="jd-descrcol" width="100%">Class representing a layer relationship to a table including relationship ID, related table name, and 
+ related table ID.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LayerSource.html">LayerSource</a></td>
+              <td class="jd-descrcol" width="100%">There are two types of layerSource objects:
+  <br>
+  Dynamic map layer - refers to an existing map service layer.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LayerTimeOptions.html">LayerTimeOptions</a></td>
+              <td class="jd-descrcol" width="100%">This class defines time options for the layer with the given ID within a map service.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/Legend.html">Legend</a></td>
+              <td class="jd-descrcol" width="100%">The Legend class provides a legend's symbol and label.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/MosaicRule.html">MosaicRule</a></td>
+              <td class="jd-descrcol" width="100%">Specifies the mosaic rule when defining how individual images should be mosaicked.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/OwnershipBasedAccessControlForFeatures.html">OwnershipBasedAccessControlForFeatures</a></td>
+              <td class="jd-descrcol" width="100%">Stores information about whether users are restricted from updating, querying or 
+ deleting features that they do not own (that is features they did not create).&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/QueryTableDataSource.html">QueryTableDataSource</a></td>
+              <td class="jd-descrcol" width="100%">The Class QueryTableDataSource is a layer/table that is defined by a SQL
+ query.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/RangeDomain.html">RangeDomain</a></td>
+              <td class="jd-descrcol" width="100%">The <code>RangeDomain</code> class represents the 'Range Domain' details in the Feature Layer of the Feature Service.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/RasterDataSource.html">RasterDataSource</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/RasterFunction.html">RasterFunction</a></td>
+              <td class="jd-descrcol" width="100%">Specifies the processing to be done to the image service.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ServerError.html">ServerError</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ServerFile.html">ServerFile</a></td>
+              <td class="jd-descrcol" width="100%">This class represents a file on a server that is contained in a <code><a href="../../../../../reference/com/esri/core/map/ServerFolder.html">ServerFolder</a></code>.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ServerFolder.html">ServerFolder</a></td>
+              <td class="jd-descrcol" width="100%">This class represents the directory structure of files on a server.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/SpatialFilter.html">SpatialFilter</a></td>
+              <td class="jd-descrcol" width="100%">This class represents a spatial filter which includes an input geometry and spatial 
+ relationship.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/TableDataSource.html">TableDataSource</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/TimeExtent.html">TimeExtent</a></td>
+              <td class="jd-descrcol" width="100%">This class can be used to define either a single date/time or a range of dates/times.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/TimeInfo.html">TimeInfo</a></td>
+              <td class="jd-descrcol" width="100%">This class contains information about time aware map service layers or individual layers within a map service.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/TimeOptions.html">TimeOptions</a></td>
+              <td class="jd-descrcol" width="100%">Time options&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/TimeReference.html">TimeReference</a></td>
+              <td class="jd-descrcol" width="100%">This class represents the timezone of a time aware layer and indicates whether or not daylight saving is respected.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/WebMapQuery.html">WebMapQuery</a></td>
+              <td class="jd-descrcol" width="100%">Represents an ArcGIS query task data defined in the web map.&nbsp;</td>
+          </tr>
+  </table>
+    </div>
+  
+
+
+  
+    <h2>Enums</h2>
+    <div class="jd-sumtable">
+    
+  <table class="jd-sumtable-expando">
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/DataSource.DataSourceType.html">DataSource.DataSourceType</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/EditInfo.ACTION_TYPE.html">EditInfo.ACTION_TYPE</a></td>
+              <td class="jd-descrcol" width="100%">The type of editing action.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/EditInfo.DATE_DISPLAY_PATTERN.html">EditInfo.DATE_DISPLAY_PATTERN</a></td>
+              <td class="jd-descrcol" width="100%">Enum representing how the date will be displayed based on the date's value.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/FeatureTemplate.DRAWING_TOOL.html">FeatureTemplate.DRAWING_TOOL</a></td>
+              <td class="jd-descrcol" width="100%">The default drawing tool to use when creating features based on this template..&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ImageFormat.html">ImageFormat</a></td>
+              <td class="jd-descrcol" width="100%">The format of the exported image.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ImageServiceParameters.IMAGE_FORMAT.html">ImageServiceParameters.IMAGE_FORMAT</a></td>
+              <td class="jd-descrcol" width="100%">The format of the exported image.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ImageServiceParameters.NoDataInterpretation.html">ImageServiceParameters.NoDataInterpretation</a></td>
+              <td class="jd-descrcol" width="100%">Interpretation of the noData setting (see <code><a href="../../../../../reference/com/esri/core/map/ImageServiceParameters.html#getNoData()">getNoData()</a></code>).&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ImageServiceParameters.PIXEL_TYPE.html">ImageServiceParameters.PIXEL_TYPE</a></td>
+              <td class="jd-descrcol" width="100%">The pixel type, also known as data type, pertains to the type of values stored in the raster, such as signed
+ integer, unsigned integer, or floating point.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ImageServiceParameters.RSP.html">ImageServiceParameters.RSP</a></td>
+              <td class="jd-descrcol" width="100%">The resampling process of extrapolating the pixel values while transforming the raster dataset when it undergoes
+ warping or when it changes coordinate space.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/JoinTableDataSource.JoinType.html">JoinTableDataSource.JoinType</a></td>
+              <td class="jd-descrcol" width="100%">The Enum JoinType.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LabelPlacement.html">LabelPlacement</a></td>
+              <td class="jd-descrcol" width="100%">This class is used to specify label placement relative to the feature.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/LayerSource.LayerType.html">LayerSource.LayerType</a></td>
+              <td class="jd-descrcol" width="100%">&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/NoDataInterpretation.html">NoDataInterpretation</a></td>
+              <td class="jd-descrcol" width="100%">Interpretation of the noData setting (see <code><a href="../../../../../reference/com/esri/core/map/ImageServiceParameters.html#getNoData()">getNoData()</a></code>).&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/PixelType.html">PixelType</a></td>
+              <td class="jd-descrcol" width="100%">The pixel type, also known as data type, pertains to the type of values stored in the raster, such as signed
+ integer, unsigned integer, or floating point.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/ResamplingProcessType.html">ResamplingProcessType</a></td>
+              <td class="jd-descrcol" width="100%">The resampling process of extrapolating the pixel values while transforming the raster dataset when it undergoes
+ warping or when it changes coordinate space.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/SlopeType.html">SlopeType</a></td>
+              <td class="jd-descrcol" width="100%">The slope type enum is used by the Hillshade and Blend renderers to indicate which slope
+ type should be used when calculating the hillshade.&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/esri/core/map/TimeOptions.Units.html">TimeOptions.Units</a></td>
+              <td class="jd-descrcol" width="100%">Units for time options.&nbsp;</td>
+          </tr>
+  </table>
+    </div>
+  
+
+
+  
+
+
+  
+
+
+<div id="footer">
+
+</div> <!-- end footer -->
+
+</div><!-- end jd-content -->
+</div><!-- doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize android-developer-docs.js */
+</script>
+
+</body>
+</html>
